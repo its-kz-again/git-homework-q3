@@ -1,0 +1,15 @@
+git homework
+Question 3
+--------------
+git init
+git add FileA.txt
+git commit -m "FileA.txt added"
+--------------
+# edit FileA.txt
+git add FileA.txt
+git commit --amend --no-edit
+--------------
+git branch -M main
+git remote add origin {your repository url}
+git push -u origin main
+--------------
