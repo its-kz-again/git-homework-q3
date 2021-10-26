@@ -1,0 +1,24 @@
+git homework
+Question 3
+--------------
+# create new branch and then 3 commit in new branch and push in new branch
+# then merge second commit to main branch
+# Finally, merge the next commits together.
+--------------
+# create a new branch
+git branch temp
+# switch to new branch
+git checkout temp
+# then 3 commit in new branch and push in new branch
+-------------- 
+# for merge second commit to main branch
+# first use git log and then copy second commit's hash
+# and then swith to main branch
+git checkout main
+git cherry-pick {COMMIT-HASH-HERE}
+git push -u origin main
+--------------
+# next commit is third commit.
+# then switch to new branch and get third commit's hash
+# solve conflicts
+# we repeat the process we said for the second commit for third commit(or all next commits)
