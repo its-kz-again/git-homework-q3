@@ -1,1 +1,9 @@
-hello!
+git homework
+Question 3
+--------------
+# create .env file and push it in git then delete this file from repository and delete this commit form history
+--------------
+# because this commit is a last commit, use the following commands:
+git reset --hard HEAD~1
+git push -f origin main
+--------------
